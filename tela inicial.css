@@ -2,6 +2,7 @@
 
 
 #menu {
+    margin-left: 250px;
     width: 100%;
     /* Comprimento do menu */
     list-style: none;
@@ -129,7 +130,7 @@
     font-family: 'Poppins';
 }
 
-.button{
+.button {
     height: 50px;
     width: 460px;
     border-radius: 50px;
@@ -139,7 +140,7 @@
 
 }
 
-.info{
+.info {
     font-size: 20px;
     font-family: 'Poppins';
     text-align: center;
@@ -160,16 +161,15 @@
     position: relative;
 }
 
-.section1{
+.section1 {
     height: 1000px;
     margin-right: -8px;
     margin-left: -8px;
     background-color: #f3f3f3;
     margin-top: -50px;
-    
 }
 
-.subtitle2{
+.subtitle2 {
     margin-top: 50px;
     font-size: 20px;
     font-family: 'Poppins';
@@ -180,11 +180,11 @@
     font-weight: 700;
 }
 
-.text{
+.text {
     margin-top: 90px;
     font-size: 20px;
     font-family: 'Poppins';
-    text-align:justify;
+    text-align: justify;
     color: #131313;
     position: absolute;
     margin-left: 50px;
@@ -192,26 +192,20 @@
     font-weight: 500;
 }
 
-.img2 {
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("https://ecrie70.com.br/sistema/conteudos/imagem/g_66_0_1_03092021171359.png");
-    margin-left: 50px;
-    height: 500px;
-    width: 90%;
-    margin-top: 380px;
-    position: relative;
-}
 
-.box1{
-    width: 28%;
-    height: 460px;
+
+.box1 {
+    width: 85%;
+    height: 580px;
     background-color: rgb(255, 255, 255);
     position: relative;
     margin-top: -480px;
-    margin-left: 80px;
+    margin-left: 100px;
+    font-size: 20px;
 }
 
 
-.box2{
+.box2 {
     width: 28%;
     height: 460px;
     background-color: rgb(255, 255, 255);
@@ -220,7 +214,7 @@
     margin-left: 475px;
 }
 
-.box3{
+.box3 {
     width: 28%;
     height: 460px;
     background-color: rgb(255, 255, 255);
@@ -229,15 +223,43 @@
     margin-left: 870px;
 }
 
-.devTitle{
+.devTitle {
     margin-top: 25px;
     margin-left: 40px;
     color: #f3f3f3;
     font-family: 'Poppins';
-font-weight: 600;
+    font-weight: 600;
 }
 
-.linkedin{
+.linkedin {
     height: 50px;
     width: 50px;
+}
+
+.title2 {
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 25px;
+    margin-top: 850px;
+
+}
+
+.texts {
+    font-family: 'Poppins';
+    font-size: 16px;
+    margin-left: 15px;
+}
+
+.video {
+    margin-left: 300px;
+    align-items: center;
+}
+
+.videotitle {
+    font-family: 'Poppins';
+    color: #f3f3f3;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 35px;
 }
