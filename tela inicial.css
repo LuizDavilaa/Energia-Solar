@@ -1,63 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
 #menu {
-    width: 100%; /* Comprimento do menu */
-    list-style: none; /* retirar ícones da lista */
-    padding: 0; /* retirar espaço interno */
-  }
-  
-  #menu li {
-    float: left; /*elem. flutuante, c/ alinhamento esquerda*/
-    width: 255px; /*comprimento*/
-    height: 30px; /*largura*/
-    background-color: #001a4b; /*cor de fundo*/
-    color: #ffffff; /*cor do texto*/
-    position: relative; /*posição relativa c/elem.container*/
-    border: 1px solid black; /*borda (só p/ entendimento)*/
-    text-align: center; /*texto centralizado na horizontal*/
-    padding-top: 10px; /*centralização vertical manual*/
-  }
-  
-  #menu a {
-    color: #ffffff; /*cor do texto*/
-    border: 1px solid black; /*borda*/
-    text-transform: uppercase; /*todas MAIÚSCULAS*/
-    text-decoration: none; /*limpa estilos link*/
-  }
-  
-  /*:hover: quando passar o mouse por cima*/
-  #menu li:hover {
-    background-color: #001335; /*muda cor fundo de <li>*/
-  }
-  #menu li:hover > a {
-    color: white; /*muda cor texto do <a>*/
-  }
-  
-  #menu ul {
+    width: 100%;
+    /* Comprimento do menu */
+    list-style: none;
+    /* retirar ícones da lista */
+    padding: 0;
+    /* retirar espaço interno */
+}
+
+#menu li {
+    float: left;
+    /*elem. flutuante, c/ alinhamento esquerda*/
+    width: 255px;
+    /*comprimento*/
+    height: 30px;
+    /*largura*/
+    background-color: #001a4b;
+    /*cor de fundo*/
+    color: #ffffff;
+    /*cor do texto*/
+    position: relative;
+    /*posição relativa c/elem.container*/
+    border: 1px solid black;
+    /*borda (só p/ entendimento)*/
+    text-align: center;
+    /*texto centralizado na horizontal*/
+    padding-top: 10px;
+    /*centralização vertical manual*/
+    font-family: 'Poppins';
+}
+
+#menu a {
+    color: #ffffff;
+    /*cor do texto*/
+    border: 1px solid black;
+    /*borda*/
+    text-decoration: none;
+    /*limpa estilos link*/
+}
+
+#menu ul {
     /* elementos ul dentro do #menu */
-    visibility: hidden; /*invisível*/
-  }
-  /*quando o mouse estiver sobre o item (muda <ul>)*/
-  #menu li:hover > ul {
+    visibility: hidden;
+    /*invisível*/
+}
+
+/*quando o mouse estiver sobre o item (muda <ul>)*/
+#menu li:hover>ul {
     visibility: visible;
-  }
-  
-  #menu ul {
+}
+
+#menu ul {
     /* elementos ul dentro do #menu */
-    visibility: hidden; /* invisível */
-    margin: 0; /* limpa espaço externo */
-    padding: 0; /* limpa espaço interno */
-    list-style: none; /*limpa ícones dos itens */
-    top: 45px; /* posiciona top=45px */
-    float: left; /* flutuante */
-    position: absolute; /* posição absoluta */
-  }
-  
-  #menu ul li {
-    width: 250px; /* comprimento */
-    text-align: left; /* alinhamento à esquerda */
-    padding-left: 20px; /* espaçamento à esquerda*/
-  }
-  
-  #menu ul ul {
+    visibility: hidden;
+    /* invisível */
+    margin: 0;
+    /* limpa espaço externo */
+    padding: 0;
+    /* limpa espaço interno */
+    list-style: none;
+    /*limpa ícones dos itens */
+    top: 45px;
+    /* posiciona top=45px */
+    float: left;
+    /* flutuante */
+    position: absolute;
+    /* posição absoluta */
+}
+
+#menu ul li {
+    width: 250px;
+    /* comprimento */
+    text-align: left;
+    /* alinhamento à esquerda */
+    padding-left: 20px;
+    /* espaçamento à esquerda*/
+}
+
+#menu ul ul {
     /* elementos ul dentro do submenu */
     padding: 0;
     top: 0px;
@@ -65,24 +87,84 @@
     list-style: none;
     float: left;
     position: absolute;
-  }
-  
-  #menu li , #menu a {
-      border: none; /* tirar borda*/
-  }
+}
 
-.color{
+#menu li,
+#menu a {
+    border: none;
+    /* tirar borda*/
+}
+
+.color {
     background-color: #001a4b;
     margin-top: 20px;
     text-align: center;
 }
 
 
-#a:visited{
-  color: gray;
+#a:visited {
+    color: gray;
 }
 
-.fundo{
-    background-color: #001a4b; /*cor de fundo*/
+.fundo {
+    background-color: #001a4b;
+    /*cor de fundo*/
+}
 
+.title {
+    color: #ffffff;
+    font-size: 45px;
+    margin-left: 50px;
+    margin-top: -20px;
+    font-weight: 300;
+    font-family: 'Poppins';
+}
+
+.subtitle {
+    color: #004ec4;
+    font-size: 25px;
+    margin-left: 50px;
+    margin-top: 170px;
+    font-weight: 700;
+    font-family: 'Poppins';
+}
+
+.button{
+    height: 50px;
+    width: 460px;
+    border-radius: 50px;
+    background-color: #0065f3;
+    margin-top: -40px;
+    margin-left: 50px;
+
+}
+
+.info{
+    font-size: 20px;
+    font-family: 'Poppins';
+    text-align: center;
+    color: #f3f3f3;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 170px;
+}
+
+
+
+.img {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("https://ecrie70.com.br/sistema/conteudos/imagem/g_66_0_1_03092021171359.png");
+    margin-left: 700px;
+    height: 600px;
+    width: 500px;
+    margin-top: -375px;
+    position: relative;
+}
+
+.section1{
+    height: 850px;
+    margin-right: -8px;
+    margin-left: -8px;
+    background-color: #f3f3f3;
+    margin-top: -130px;
+    
 }
